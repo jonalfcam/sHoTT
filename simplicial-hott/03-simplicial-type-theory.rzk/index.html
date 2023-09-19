@@ -601,8 +601,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#connection-square" class="md-nav__link">
-    Connection Square
+  <a href="#connection-squares" class="md-nav__link">
+    Connection Squares
   </a>
   
 </li>
@@ -816,8 +816,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#connection-square" class="md-nav__link">
-    Connection Square
+  <a href="#connection-squares" class="md-nav__link">
+    Connection Squares
   </a>
   
 </li>
@@ -915,18 +915,18 @@
 </span><span id="__span-14-4"><a id="__codelineno-14-4" name="__codelineno-14-4" href="#__codelineno-14-4"></a><span class="err">  : I → TOPE</span>
 </span><span id="__span-14-5"><a id="__codelineno-14-5" name="__codelineno-14-5" href="#__codelineno-14-5"></a><span class="err">  := </span><span class="p">\ </span>t <span class="err">→ ψ t </span><span class="sx">∨</span><span class="err"> χ t</span>
 </span></code></pre></div>
-<h3 id="connection-square">Connection Square<a class="headerlink" href="#connection-square" title="Permanent link">&para;</a></h3>
+<h3 id="connection-squares">Connection Squares<a class="headerlink" href="#connection-squares" title="Permanent link">&para;</a></h3>
 <div class="language-rzk highlight"><span class="filename">RS17 Proposition 3.5</span><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="kr">#define</span><span class="p"> </span><span class="nf"><a href="#define:arrow-to-squares-or" id="define:arrow-to-squares-or" style="visibility: visible; position: relative; color: inherit">arrow-to-squares-or</a></span>
-</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a><span class="err">    </span><span class="p">(</span>A <span class="p">:</span><span class="err"> U)</span>
-</span><span id="__span-15-3"><a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a><span class="err">    </span><span class="p">(</span>f <span class="p">:</span><span class="err"> </span><span class="kt">2</span><span class="err"> → A)</span>
-</span><span id="__span-15-4"><a id="__codelineno-15-4" name="__codelineno-15-4" href="#__codelineno-15-4"></a><span class="err">    : (</span><span class="kt">2</span><span class="err"> * </span><span class="kt">2</span><span class="err">) → A</span>
-</span><span id="__span-15-5"><a id="__codelineno-15-5" name="__codelineno-15-5" href="#__codelineno-15-5"></a><span class="err">    := \ (t, s) → </span><span class="s">recOR</span><span class="err"> ( t </span><span class="sx">≤</span><span class="err"> s ↦ f s , s </span><span class="sx">≤</span><span class="err"> t ↦ f t )</span>
+</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a><span class="err">  </span><span class="p">(</span>A <span class="p">:</span><span class="err"> U)</span>
+</span><span id="__span-15-3"><a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a><span class="err">  </span><span class="p">(</span>f <span class="p">:</span><span class="err"> </span><span class="kt">2</span><span class="err"> → A)</span>
+</span><span id="__span-15-4"><a id="__codelineno-15-4" name="__codelineno-15-4" href="#__codelineno-15-4"></a><span class="err">  : (</span><span class="kt">2</span><span class="err"> × </span><span class="kt">2</span><span class="err">) → A</span>
+</span><span id="__span-15-5"><a id="__codelineno-15-5" name="__codelineno-15-5" href="#__codelineno-15-5"></a><span class="err">  := \ (t, s) → </span><span class="s">recOR</span><span class="err"> ( t </span><span class="sx">≤</span><span class="err"> s ↦ f s , s </span><span class="sx">≤</span><span class="err"> t ↦ f t )</span>
 </span><span id="__span-15-6"><a id="__codelineno-15-6" name="__codelineno-15-6" href="#__codelineno-15-6"></a>
 </span><span id="__span-15-7"><a id="__codelineno-15-7" name="__codelineno-15-7" href="#__codelineno-15-7"></a><span class="kr">#define</span><span class="p"> </span><span class="nf"><a href="#define:arrow-to-squares-and" id="define:arrow-to-squares-and" style="visibility: visible; position: relative; color: inherit">arrow-to-squares-and</a></span>
-</span><span id="__span-15-8"><a id="__codelineno-15-8" name="__codelineno-15-8" href="#__codelineno-15-8"></a><span class="err">    </span><span class="p">(</span>A <span class="p">:</span><span class="err"> U)</span>
-</span><span id="__span-15-9"><a id="__codelineno-15-9" name="__codelineno-15-9" href="#__codelineno-15-9"></a><span class="err">    </span><span class="p">(</span>f <span class="p">:</span><span class="err"> </span><span class="kt">2</span><span class="err"> → A)</span>
-</span><span id="__span-15-10"><a id="__codelineno-15-10" name="__codelineno-15-10" href="#__codelineno-15-10"></a><span class="err">    : (</span><span class="kt">2</span><span class="err"> * </span><span class="kt">2</span><span class="err">) → A</span>
-</span><span id="__span-15-11"><a id="__codelineno-15-11" name="__codelineno-15-11" href="#__codelineno-15-11"></a><span class="err">    := \ (t, s) → </span><span class="s">recOR</span><span class="err"> ( t </span><span class="sx">≤</span><span class="err"> s ↦ f t , s </span><span class="sx">≤</span><span class="err"> t ↦ f s )</span>
+</span><span id="__span-15-8"><a id="__codelineno-15-8" name="__codelineno-15-8" href="#__codelineno-15-8"></a><span class="err">  </span><span class="p">(</span>A <span class="p">:</span><span class="err"> U)</span>
+</span><span id="__span-15-9"><a id="__codelineno-15-9" name="__codelineno-15-9" href="#__codelineno-15-9"></a><span class="err">  </span><span class="p">(</span>f <span class="p">:</span><span class="err"> </span><span class="kt">2</span><span class="err"> → A)</span>
+</span><span id="__span-15-10"><a id="__codelineno-15-10" name="__codelineno-15-10" href="#__codelineno-15-10"></a><span class="err">  : (</span><span class="kt">2</span><span class="err"> × </span><span class="kt">2</span><span class="err">) → A</span>
+</span><span id="__span-15-11"><a id="__codelineno-15-11" name="__codelineno-15-11" href="#__codelineno-15-11"></a><span class="err">  := \ (t, s) → </span><span class="s">recOR</span><span class="err"> ( t </span><span class="sx">≤</span><span class="err"> s ↦ f t , s </span><span class="sx">≤</span><span class="err"> t ↦ f s )</span>
 </span></code></pre></div>
 
 
